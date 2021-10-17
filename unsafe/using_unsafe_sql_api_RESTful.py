@@ -1,5 +1,6 @@
 # request with injection:
 # http://127.0.0.1:8383/user?email=alice@ntu.edu.sg%27%20or%20%271%27=%271
+# alice@ntu.edu.sg' or '1'='1
 
 DB_CONFIG = {
     "host": "127.0.0.1", 

@@ -15,10 +15,11 @@ class UserDBManager:
         self.logger = logging.getLogger()
         print("Log File:", self.name + ".log")
     
+
     def __del__(self):
         self.db_connection.commit()
         self.db_connection.close()
-
+    
     
     def get_user_info_with_email_address(self, email_address: str):
         try:
