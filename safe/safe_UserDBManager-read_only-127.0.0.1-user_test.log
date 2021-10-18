@@ -1,0 +1,11 @@
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.101:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2021 22:37:22] "GET /user?email=alice%40ntu.edu.sg%27+or+%271%27+%3D+%271 HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.101:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [19/Oct/2021 00:35:51] "GET /user?email=alice%40ntu.edu.sg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Oct/2021 00:36:30] "GET /user?email=alice%40ntu.edu.sg%27+or+%271%27%3D%271 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Oct/2021 00:48:42] "GET /user?email=alice%40ntu.edu.sg%27+or+%271%27%3D%271 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Oct/2021 01:04:03] "GET /user?email=alice%40ntu.edu.sg%27+or+%271%27%3D%271 HTTP/1.1" 200 -
