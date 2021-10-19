@@ -11,14 +11,12 @@ DB_CONFIG = {
 }
 
 from unsafe_sql_api import UserDBManager
-from flask import Flask, abort, request, jsonify
+from flask import Flask, request, jsonify
 from flask.views import MethodView
 
 user_manager = UserDBManager(db_config = DB_CONFIG)
 
 app = Flask(__name__)
-
-
 
 class User(MethodView):
     def get(self):
@@ -27,6 +25,6 @@ class User(MethodView):
 app.add_url_rule('/user', view_func = User.as_view(name='user'))
 
 
-
 if __name__ == '__main__':
     app.run(host = "0.0.0.0", port = 8383)
+

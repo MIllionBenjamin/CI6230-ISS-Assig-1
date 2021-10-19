@@ -14,7 +14,6 @@ class User(Base):
     home_address = Column(String(50))
 
 
-
 class UserDBManager:
     def __init__(self, db_config: dict):
         self.engine = create_engine('mysql+mysqlconnector://'+ db_config["user"]\
@@ -40,3 +39,4 @@ class UserDBManager:
         except Exception as e:
             self.logger.error("error in get_todo_task: " + str(e))
             return []
+s

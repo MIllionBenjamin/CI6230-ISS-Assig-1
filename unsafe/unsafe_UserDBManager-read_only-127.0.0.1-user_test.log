@@ -18,3 +18,29 @@ WARNING:werkzeug: * Running on all addresses.
 INFO:werkzeug: * Running on http://192.168.1.101:8383/ (Press CTRL+C to quit)
 INFO:werkzeug:127.0.0.1 - - [17/Oct/2021 19:03:38] "GET /user?email=alice%40ntu.edu.sg HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [17/Oct/2021 19:04:10] "GET /user?email=alice%40ntu.edu.sg%27+or+%271%27%3D%271 HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.101:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2021 15:33:21] "GET /user?email=alice@ntu.edu.sg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2021 15:33:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.101:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2021 15:34:00] "GET /user?email=alice@ntu.edu.sg HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.101:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2021 15:34:30] "GET /user?email=alice@ntu.edu.sg HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.101:8383/ (Press CTRL+C to quit)
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.101:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2021 19:27:29] "GET /user?email=alice%40e.ntu.edu.sg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2021 19:27:35] "GET /user?email=alice%40ntu.edu.sg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2021 19:28:02] "GET /user?email=alice%40ntu.edu.sg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2021 19:41:15] "GET /user?email=alice%40ntu.edu.sg%27+or+%271%27+%3D+%271 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2021 19:42:06] "GET /user?email=alice%40ntu.edu.sg%27+or+%271%27+%3D+%271 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2021 19:47:50] "GET /user?email=alice%40ntu.edu.sg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Oct/2021 20:07:09] "GET /user?email=alice%40ntu.edu.sg%27+or+%271%27+%3D+%271 HTTP/1.1" 200 -
